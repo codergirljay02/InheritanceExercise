@@ -28,12 +28,18 @@ namespace Inheritance
              *  
              * Creatively display the class member values 
              */
-
+            var macaw = new Bird();
+            macaw.LaysEggs = true;
+            macaw.InTheWild = true;
             /*Create an object of your Reptile class
              *  give values to your members using the object of your Bird class
              *  
              * Creatively display the class member values 
              */
+            var alligator = new Reptile();
+
+
+
         }
     }
 }
